@@ -70,7 +70,7 @@ const projects = [
     tech: ["Flutter", "Firebase", "Realtime DB", "Multiplayer"],
     images: [playdateThumb, playdate1, playdate2, playdate3, playdate4, playdate5],
     color: "#ff2d95",
-    liveUrl: "https://gentle-observations.vercel.app/",
+    liveUrl: "#",
     githubUrl: "https://github.com/Toji-cmd7",
     caseStudy: {
       problem: "Long-distance couples and friends lack fun, lightweight ways to spend quality time together online beyond video calls.",
