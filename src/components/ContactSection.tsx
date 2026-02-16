@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Instagram, Phone, Clock, Briefcase, CheckCircle, XCircle, Loader2 } from "lucide-react";
+import { Linkedin, Twitter, Mail, Instagram, Phone, Clock, Briefcase, CheckCircle, XCircle, Loader2 } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 const SERVICE_ID = "service_u8piqgb";
@@ -8,7 +8,7 @@ const TEMPLATE_ID = "template_ezyiput";
 const PUBLIC_KEY = "1tx_Xm-Rr-_XZDEZc";
 
 const socials = [
-  { icon: Github, href: "https://github.com/Toji-cmd7", label: "GitHub" },
+
   { icon: Linkedin, href: "https://www.linkedin.com/in/shahban-shah", label: "LinkedIn" },
   { icon: Twitter, href: "https://x.com/Syed_ShahbanX", label: "Twitter/X" },
   { icon: Instagram, href: "https://www.instagram.com/toxji.exe", label: "Instagram" },
