@@ -334,7 +334,13 @@ const ProjectsSection = () => {
 
       {/* Responsive Project Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, index) => (
+        {[
+          projects.find((p) => p.id === 4)!, // FreshBite
+          projects.find((p) => p.id === 9)!, // Bazaarly
+          projects.find((p) => p.id === 8)!, // FitFlow
+          projects.find((p) => p.id === 5)!, // StayEase
+          ...projects.filter((p) => ![4, 9, 8, 5].includes(p.id)),
+        ].map((project, index) => (
           <motion.div
             key={project.id}
             className="glass rounded-xl overflow-hidden cursor-pointer group transition-all duration-300 hover:shadow-[0_8px_40px_rgba(0,240,255,0.12)] flex flex-col"

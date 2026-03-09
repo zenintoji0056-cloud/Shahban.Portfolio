@@ -1,21 +1,15 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", level: 90 },
-  { name: "TypeScript", level: 85 },
-  { name: "React Native", level: 82 },
-  { name: "Node.js", level: 80 },
-  { name: "Python", level: 75 },
-  { name: "CSS/Tailwind", level: 92 },
-  { name: "Next.js", level: 78 },
-  { name: "Flutter", level: 70 },
-  { name: "Kotlin", level: 68 },
-  { name: "Jetpack Compose", level: 65 },
-  { name: "UI/UX Design", level: 88 },
-  { name: "Git", level: 85 },
-  { name: "Figma", level: 78 },
-  { name: "Firebase", level: 72 },
-  { name: "Framer Motion", level: 80 },
+  { name: "React", level: 96 },
+  { name: "CSS/Tailwind", level: 95 },
+  { name: "UI/UX Design", level: 94 },
+  { name: "TypeScript", level: 93 },
+  { name: "React Native", level: 93 },
+  { name: "Next.js", level: 92 },
+  { name: "Figma", level: 91 },
+  { name: "Firebase", level: 90 },
+  { name: "Flutter", level: 90 },
 ];
 
 const SkillsSection = () => {
