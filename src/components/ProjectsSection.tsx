@@ -31,6 +31,10 @@ import freshbiteThumb from "@/assets/project-freshbite-thumb.jpg";
 import playdateThumb from "@/assets/project-playdate-thumb.jpg";
 import automindThumb from "@/assets/project-automind-thumb.jpg";
 import nopreferenceThumb from "@/assets/project-nopreference-thumb.jpg";
+import fitflowThumb from "@/assets/project-fitflow-thumb.jpg";
+import stayeaseThumb from "@/assets/project-stayease-thumb.jpg";
+import bazaarlyThumb from "@/assets/project-bazaarly-thumb.jpg";
+import freshbiteNewThumb from "@/assets/project-freshbite-new-thumb.jpg";
 
 const projects = [
   {
@@ -121,9 +125,9 @@ const projects = [
     id: 4,
     title: "FreshBite",
     tagline: "Food Delivery App",
-    description: "A complete food delivery app with restaurant discovery, menu browsing, cart management with promo codes, and checkout flow.",
-    tech: ["Flutter", "Firebase", "Payment Integration"],
-    images: [freshbiteThumb, freshbite2, freshbite3, freshbite1, freshbite5, freshbite4],
+    description: "A complete food delivery mobile app with restaurant discovery, detailed menu browsing, cart management with promo codes, and a streamlined checkout flow. Features clean UI with category filters, restaurant ratings, and real-time order tracking.",
+    tech: ["React Native", "UI/UX Design", "Figma"],
+    images: [freshbiteNewThumb, freshbite2, freshbite3, freshbite1, freshbite5, freshbite4],
     color: "#22c55e",
     liveUrl: "#",
     githubUrl: "https://github.com/Toji-cmd7",
@@ -131,10 +135,10 @@ const projects = [
       problem: "Local restaurants needed a branded delivery platform without the high commission fees of third-party apps.",
       role: "Solo developer - Full-stack development including payment integration.",
       approach: [
-        "Flutter for cross-platform mobile app",
-        "Firebase for real-time order tracking and notifications",
-        "Integrated payment gateway for seamless checkout",
-        "Category filters, restaurant ratings, and promo code system",
+        "React Native for cross-platform mobile app",
+        "Clean UI with category filters and restaurant ratings",
+        "Cart management system with promo code support",
+        "Streamlined checkout flow with real-time order tracking",
       ],
       results: [
         "Complete order lifecycle from browsing to delivery",
@@ -149,7 +153,7 @@ const projects = [
     tagline: "Property Management App",
     description: "A property management app with dashboard, revenue tracking, booking management, and occupancy stats.",
     tech: ["Flutter", "Property Management"],
-    images: [stayease2, stayease3, stayease1],
+    images: [stayeaseThumb, stayease2, stayease3, stayease1],
     color: "#a855f7",
     liveUrl: "#",
     githubUrl: "https://github.com/Toji-cmd7",
@@ -218,6 +222,65 @@ const projects = [
         "Warm, inviting digital presence matching the physical cafe",
         "Fully responsive from mobile to desktop",
         "Fast loading with optimized imagery",
+      ],
+    },
+  },
+  {
+    id: 8,
+    title: "FitFlow",
+    tagline: "GPS Fitness Tracker",
+    description: "A GPS-based fitness tracking app designed to solve the retention problem plaguing workout apps. With real-time tracking, social competition, and gamified progress, it turns fitness tracking from a chore into an engaging daily habit. Dark theme UI with neon yellow accents creates a premium, energetic experience that makes users feel like athletes, not data points.",
+    tech: ["Flutter", "Firebase Realtime Database", "Firestore", "Google Maps API", "BLoC/Riverpod"],
+    images: [fitflowThumb],
+    color: "#d4ff00",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Toji-cmd7",
+    caseStudy: {
+      problem: "Most fitness apps suffer from poor retention because they treat users as data points rather than athletes. Users need motivation, social connection, and gamification to stick with their fitness routines.",
+      role: "Solo designer & developer - Full UI/UX design and development planning.",
+      approach: [
+        "Flutter with BLoC/Riverpod for state management",
+        "Firebase Realtime Database & Firestore for backend",
+        "Google Maps API for GPS-based real-time tracking",
+        "Social competition features and gamified progress system",
+        "Dark theme UI with neon yellow accents for premium feel",
+      ],
+      results: [
+        "UI/UX Complete, Ready for Development",
+        "3-week timeline (design + development)",
+        "Dark theme with neon yellow creates premium, energetic experience",
+        "Social features designed for retention and daily engagement",
+      ],
+    },
+  },
+  {
+    id: 9,
+    title: "Bazaarly",
+    tagline: "Multi-Vendor Marketplace",
+    description: "A mobile-first multi-vendor marketplace built to validate a Daraz-style e-commerce model in lean MVP form. Designed to create a scalable marketplace experience connecting buyers and sellers while maintaining clean UX, trust signals, and conversion-focused flows.",
+    tech: ["Mobile App", "UI/UX Design", "Product Strategy", "Marketplace Design"],
+    images: [bazaarlyThumb],
+    color: "#a3e635",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Toji-cmd7",
+    caseStudy: {
+      problem: "Building a Daraz-style multi-vendor marketplace requires separating buyer, seller, and admin flows while maintaining conversion-focused UX, trust signals, and a commission-based monetization model — all within a lean MVP timeline.",
+      role: "Product designer & strategist - 12 high-fidelity screens covering buyer, seller, and admin flows.",
+      approach: [
+        "12 High-Fidelity Screens: Splash & Onboarding, Home with Flash Sale & Category Discovery, Product Detail with pricing psychology + ratings, Cart with multi-seller breakdown",
+        "Structured Checkout: Delivery → Payment → Review flow, Order Success & Shipment Splitting, Order Tracking Timeline",
+        "Buyer Profile & Account Hub, Seller Dashboard (KPIs + quick actions), Seller Product & Order Management, Admin Dashboard (GMV, sellers, commissions)",
+        "Commission-based marketplace model with multi-shipment logic for different sellers",
+        "Status-driven order lifecycle with scalable component-based design system",
+        "Clean white UI with bright lime primary actions, fully rounded CTA buttons, consistent product card architecture",
+      ],
+      results: [
+        "Complete marketplace foundation designed for 30–45 day launch readiness",
+        "Clear separation of buyer, seller, and admin flows",
+        "Monetization-ready commission-based system structure",
+        "MVP-first product strategy with role-based UX design",
+        "Conversion-optimized CTAs with strong visual hierarchy",
+        "Data-driven layout with real pricing, ratings, and seller metrics",
       ],
     },
   },
